@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452CBFA129570FA3005CDE4F /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CBFA029570FA3005CDE4F /* RecipeDetails.swift */; };
+		452CBFA429576708005CDE4F /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 452CBFA329576708005CDE4F /* SimpleToast */; };
+		452CBFA629577F75005CDE4F /* RecipeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CBFA529577F75005CDE4F /* RecipeEdit.swift */; };
+		45B9B1E429489CBA005DA442 /* ViewController3API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9B1E329489CBA005DA442 /* ViewController3API.swift */; };
 		45E932A129471C9400B83499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932A029471C9400B83499 /* AppDelegate.swift */; };
 		45E932A329471C9400B83499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932A229471C9400B83499 /* SceneDelegate.swift */; };
 		45E932A529471C9400B83499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932A429471C9400B83499 /* ViewController.swift */; };
 		45E932A829471C9400B83499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E932A629471C9400B83499 /* Main.storyboard */; };
 		45E932AA29471C9400B83499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E932A929471C9400B83499 /* Assets.xcassets */; };
 		45E932AD29471C9400B83499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E932AB29471C9400B83499 /* LaunchScreen.storyboard */; };
+		45E932B52947259000B83499 /* recipe_app.db in Resources */ = {isa = PBXBuildFile; fileRef = 45E932B42947259000B83499 /* recipe_app.db */; };
+		45E932C3294727FD00B83499 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E932B8294727FD00B83499 /* FMDatabaseAdditions.m */; };
+		45E932C4294727FD00B83499 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E932BA294727FD00B83499 /* FMResultSet.m */; };
+		45E932C5294727FD00B83499 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E932BC294727FD00B83499 /* FMDatabasePool.m */; };
+		45E932C6294727FD00B83499 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E932BD294727FD00B83499 /* FMDatabase.m */; };
+		45E932C7294727FD00B83499 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E932BF294727FD00B83499 /* FMDatabaseQueue.m */; };
+		45E932C9294728DF00B83499 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932C8294728DF00B83499 /* Util.swift */; };
+		45E932CB29472F9400B83499 /* recipe_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932CA29472F9400B83499 /* recipe_model.swift */; };
+		45E932CD2947309500B83499 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932CC2947309500B83499 /* DatabaseManager.swift */; };
+		45E932CF29474E1A00B83499 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932CE29474E1A00B83499 /* SplashController.swift */; };
+		45E932D12947608900B83499 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932D02947608900B83499 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		452CBFA029570FA3005CDE4F /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
+		452CBFA529577F75005CDE4F /* RecipeEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEdit.swift; sourceTree = "<group>"; };
+		45B9B1E329489CBA005DA442 /* ViewController3API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3API.swift; sourceTree = "<group>"; };
 		45E9329D29471C9400B83499 /* cook_book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cook_book.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E932A029471C9400B83499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E932A229471C9400B83499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,24 @@
 		45E932A929471C9400B83499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45E932AC29471C9400B83499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45E932AE29471C9400B83499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E932B42947259000B83499 /* recipe_app.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = recipe_app.db; sourceTree = "<group>"; };
+		45E932B7294727FC00B83499 /* cook_book-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cook_book-Bridging-Header.h"; sourceTree = "<group>"; };
+		45E932B8294727FD00B83499 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../database/fmdb-master/src/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		45E932B9294727FD00B83499 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../database/fmdb-master/src/fmdb/FMDatabase.h"; sourceTree = "<group>"; };
+		45E932BA294727FD00B83499 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../database/fmdb-master/src/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		45E932BB294727FD00B83499 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../database/fmdb-master/src/fmdb/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		45E932BC294727FD00B83499 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../database/fmdb-master/src/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		45E932BD294727FD00B83499 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../database/fmdb-master/src/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		45E932BE294727FD00B83499 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../database/fmdb-master/src/fmdb/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		45E932BF294727FD00B83499 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../database/fmdb-master/src/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		45E932C0294727FD00B83499 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../database/fmdb-master/src/fmdb/FMResultSet.h"; sourceTree = "<group>"; };
+		45E932C1294727FD00B83499 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../database/fmdb-master/src/fmdb/FMDB.h"; sourceTree = "<group>"; };
+		45E932C2294727FD00B83499 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../database/fmdb-master/src/fmdb/FMDatabasePool.h"; sourceTree = "<group>"; };
+		45E932C8294728DF00B83499 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		45E932CA29472F9400B83499 /* recipe_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipe_model.swift; sourceTree = "<group>"; };
+		45E932CC2947309500B83499 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		45E932CE29474E1A00B83499 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		45E932D02947608900B83499 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452CBFA429576708005CDE4F /* SimpleToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +93,44 @@
 		45E9329F29471C9400B83499 /* cook_book */ = {
 			isa = PBXGroup;
 			children = (
+				45E932B6294725EF00B83499 /* FMDB */,
+				45E932B42947259000B83499 /* recipe_app.db */,
 				45E932A029471C9400B83499 /* AppDelegate.swift */,
+				45E932CC2947309500B83499 /* DatabaseManager.swift */,
+				45E932CE29474E1A00B83499 /* SplashController.swift */,
+				452CBFA029570FA3005CDE4F /* RecipeDetails.swift */,
+				452CBFA529577F75005CDE4F /* RecipeEdit.swift */,
 				45E932A229471C9400B83499 /* SceneDelegate.swift */,
+				45E932C8294728DF00B83499 /* Util.swift */,
+				45E932CA29472F9400B83499 /* recipe_model.swift */,
 				45E932A429471C9400B83499 /* ViewController.swift */,
+				45B9B1E329489CBA005DA442 /* ViewController3API.swift */,
+				45E932D02947608900B83499 /* ViewController2.swift */,
 				45E932A629471C9400B83499 /* Main.storyboard */,
 				45E932A929471C9400B83499 /* Assets.xcassets */,
 				45E932AB29471C9400B83499 /* LaunchScreen.storyboard */,
 				45E932AE29471C9400B83499 /* Info.plist */,
 			);
 			path = cook_book;
+			sourceTree = "<group>";
+		};
+		45E932B6294725EF00B83499 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				45E932B9294727FD00B83499 /* FMDatabase.h */,
+				45E932BD294727FD00B83499 /* FMDatabase.m */,
+				45E932BE294727FD00B83499 /* FMDatabaseAdditions.h */,
+				45E932B8294727FD00B83499 /* FMDatabaseAdditions.m */,
+				45E932C2294727FD00B83499 /* FMDatabasePool.h */,
+				45E932BC294727FD00B83499 /* FMDatabasePool.m */,
+				45E932BB294727FD00B83499 /* FMDatabaseQueue.h */,
+				45E932BF294727FD00B83499 /* FMDatabaseQueue.m */,
+				45E932C1294727FD00B83499 /* FMDB.h */,
+				45E932C0294727FD00B83499 /* FMResultSet.h */,
+				45E932BA294727FD00B83499 /* FMResultSet.m */,
+				45E932B7294727FC00B83499 /* cook_book-Bridging-Header.h */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +149,9 @@
 			dependencies = (
 			);
 			name = cook_book;
+			packageProductDependencies = (
+				452CBFA329576708005CDE4F /* SimpleToast */,
+			);
 			productName = cook_book;
 			productReference = 45E9329D29471C9400B83499 /* cook_book.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +168,7 @@
 				TargetAttributes = {
 					45E9329C29471C9400B83499 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -111,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 45E9329429471C9400B83499;
+			packageReferences = (
+				452CBFA229576708005CDE4F /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
 			productRefGroup = 45E9329E29471C9400B83499 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E932AD29471C9400B83499 /* LaunchScreen.storyboard in Resources */,
+				45E932B52947259000B83499 /* recipe_app.db in Resources */,
 				45E932AA29471C9400B83499 /* Assets.xcassets in Resources */,
 				45E932A829471C9400B83499 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +213,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E932A529471C9400B83499 /* ViewController.swift in Sources */,
+				45B9B1E429489CBA005DA442 /* ViewController3API.swift in Sources */,
+				45E932CD2947309500B83499 /* DatabaseManager.swift in Sources */,
+				452CBFA129570FA3005CDE4F /* RecipeDetails.swift in Sources */,
+				45E932C9294728DF00B83499 /* Util.swift in Sources */,
+				45E932C7294727FD00B83499 /* FMDatabaseQueue.m in Sources */,
+				45E932C5294727FD00B83499 /* FMDatabasePool.m in Sources */,
 				45E932A129471C9400B83499 /* AppDelegate.swift in Sources */,
+				45E932C6294727FD00B83499 /* FMDatabase.m in Sources */,
+				452CBFA629577F75005CDE4F /* RecipeEdit.swift in Sources */,
 				45E932A329471C9400B83499 /* SceneDelegate.swift in Sources */,
+				45E932CF29474E1A00B83499 /* SplashController.swift in Sources */,
+				45E932C3294727FD00B83499 /* FMDatabaseAdditions.m in Sources */,
+				45E932C4294727FD00B83499 /* FMResultSet.m in Sources */,
+				45E932CB29472F9400B83499 /* recipe_model.swift in Sources */,
+				45E932D12947608900B83499 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,6 +390,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "company.cook-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "cook_book/FMDB/cook_book-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "company.cook-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "cook_book/FMDB/cook_book-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		452CBFA229576708005CDE4F /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		452CBFA329576708005CDE4F /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 452CBFA229576708005CDE4F /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 45E9329529471C9400B83499 /* Project object */;
 }
