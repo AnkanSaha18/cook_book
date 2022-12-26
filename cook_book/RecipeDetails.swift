@@ -13,7 +13,7 @@ class RecipeDetails: UIViewController {
     @IBOutlet weak var recipeName: UILabel!
     @IBOutlet weak var photo: UILabel!
     @IBOutlet weak var ingridents: UILabel!
-    @IBOutlet weak var process: UILabel!
+    @IBOutlet weak var process1: UITextView!
     
     var recipeNameCame = ""
     var photoCame = ""
@@ -47,7 +47,7 @@ class RecipeDetails: UIViewController {
         recipeName.text = recipeNameCame
         photo.text = photoCame
         ingridents.text = ingridentsCame
-        process.text = processCame
+        process1.text = processCame
         // Do any additional setup after loading the view.
         
         print(recipeNameCame)

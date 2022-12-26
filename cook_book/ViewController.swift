@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         
         let isSave = DatabaseManager.getInstance().saveData(modelInfo)
         print(isSave)
+        print("In save")
         
         
 //        DatabaseManager.getInstance().fetchData()

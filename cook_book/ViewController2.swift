@@ -10,13 +10,15 @@ import UIKit
 class ViewController2: UIViewController{
     var recipes = DatabaseManager.getInstance().fetchData()
     
+    
     @IBOutlet var tableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        recipes = DatabaseManager.getInstance().fetchData()
         tableView.delegate = self
         tableView.dataSource = self
-        
+        print("After save button")
     }
 }
 
@@ -50,16 +52,4 @@ extension ViewController2: UITableViewDataSource{
         
         return cell
     }
-    
-//    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-//        if let vc = storyboard?.instantiateViewController(withIdentifier: "RecipeDetails") as? RecipeDetails{
-//            vc.recipeNameCame = recipes[indexPath.row].recipe_name
-//            vc.processCame = recipes[indexPath.row].process
-//            vc.ingridentsCame = recipes[indexPath.row].ingredients
-//            vc.photoCame = recipes[indexPath.row].photo
-//
-//
-//            self.navigationController?.pushViewController(vc, animated: true)
-//        }
-//    }
 }
