@@ -10,6 +10,7 @@
 		452CBFA129570FA3005CDE4F /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CBFA029570FA3005CDE4F /* RecipeDetails.swift */; };
 		452CBFA429576708005CDE4F /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 452CBFA329576708005CDE4F /* SimpleToast */; };
 		452CBFA629577F75005CDE4F /* RecipeEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452CBFA529577F75005CDE4F /* RecipeEdit.swift */; };
+		456E1C6D295AB56D00F11E6C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E1C6C295AB56D00F11E6C /* LoginController.swift */; };
 		45B22EDA2959BBDA007FF212 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B22ED92959BBDA007FF212 /* APIController.swift */; };
 		45B9B1E429489CBA005DA442 /* ViewController3API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9B1E329489CBA005DA442 /* ViewController3API.swift */; };
 		45E932A129471C9400B83499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E932A029471C9400B83499 /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		452CBFA029570FA3005CDE4F /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		452CBFA529577F75005CDE4F /* RecipeEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeEdit.swift; sourceTree = "<group>"; };
+		456E1C6C295AB56D00F11E6C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		45B22ED92959BBDA007FF212 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		45B9B1E329489CBA005DA442 /* ViewController3API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3API.swift; sourceTree = "<group>"; };
 		45E9329D29471C9400B83499 /* cook_book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cook_book.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 				45E932B6294725EF00B83499 /* FMDB */,
 				45E932B42947259000B83499 /* recipe_app.db */,
 				45E932A029471C9400B83499 /* AppDelegate.swift */,
+				456E1C6C295AB56D00F11E6C /* LoginController.swift */,
 				45E932CC2947309500B83499 /* DatabaseManager.swift */,
 				45E932CE29474E1A00B83499 /* SplashController.swift */,
 				452CBFA029570FA3005CDE4F /* RecipeDetails.swift */,
@@ -228,6 +231,7 @@
 				45B22EDA2959BBDA007FF212 /* APIController.swift in Sources */,
 				45E932A329471C9400B83499 /* SceneDelegate.swift in Sources */,
 				45E932CF29474E1A00B83499 /* SplashController.swift in Sources */,
+				456E1C6D295AB56D00F11E6C /* LoginController.swift in Sources */,
 				45E932C3294727FD00B83499 /* FMDatabaseAdditions.m in Sources */,
 				45E932C4294727FD00B83499 /* FMResultSet.m in Sources */,
 				45E932CB29472F9400B83499 /* recipe_model.swift in Sources */,

@@ -10,8 +10,8 @@ import Foundation
 
 class APIController: UIViewController {
     
-    @IBOutlet var recipeName: UILabel!
-    @IBOutlet var ingredients: UILabel!
+    @IBOutlet weak var recipeName: UILabel!
+    @IBOutlet weak var ingredients: UILabel!
     @IBOutlet weak var process: UITextView!
     
     public var recipeNameNew: String = ""
@@ -24,9 +24,9 @@ class APIController: UIViewController {
         super.viewDidLoad()
         var randomValue =  arc4random()%5
         var links:[String] = ["https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870",
-                              "https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870",
-                              "https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870",
-                              "https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870",
+                              "https://mocki.io/v1/f710e39b-3b24-454a-8a2a-e1f431bef74d",
+                              "https://mocki.io/v1/d31cb764-30cd-48d5-aa95-466fb36dbf53",
+                              "https://mocki.io/v1/6eec9af9-91b6-4742-80d2-3cddff71a830",
                               "https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870"]
         
         
@@ -139,11 +139,6 @@ class APIController: UIViewController {
     }
     
     
-    @IBAction func callAPI(_ sender: Any) {
-        print("API button is working")
-        let url = "https://mocki.io/v1/ba66ffa8-7f87-44de-839b-34a8a538a870"
-        getData(from: url)
-    }
 }
 
 struct Response: Codable {
